@@ -1,18 +1,15 @@
 #include <iostream>
-#include <vector>
-using namespace std;
-int main() {
-    vector<int> vec;
-    cout<< "size="<<vec.size();
+//using namespace std;
+int main(){
+int n, m;
+std::cout<< " enter the values of n and m";
+std::cin>>n;
+std::cin>>m;
+int sum = n+m;
+std::cout<< "the sum of two numbers is :"<< sum ;
 
-    vec.push_back(24);
-    vec.push_back(64);
-    vec.push_back(78);
-    cout<< "after push back size+ "<< vec.size()<<endl;
-    vec.pop_back();
-    cout<< vec.front()<<endl;
 
-    cout << vec.at(1)<<endl;
-  
+
     return 0;
 }
+
